@@ -1,0 +1,48 @@
+/* Responsive Styles Start */
+
+
+@media all and (max-width: 1170px) {
+    #main-header {
+    background-image: url(../obrazy/man-2.jpg);
+    height: 66vh;
+    max-width: 1170px;
+    }    
+    #main-header .header-content {
+        text-align: left;
+        position: relative;
+        top: 25%;
+        padding-left: 55%;
+        
+    }
+    
+    #main-header .header-content h1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    #main-header .header-content span {
+        font-size: 2.3rem;
+         font-weight: 700;
+    }
+
+}    
+
+
+@media all and (max-width: 991px) {
+    #main-header {
+        background-image: url(../obrazy/man-1.jpg);
+        height: 50vh;
+        background-size: cover;
+        max-width: 991px;
+        color: #000;
+    }    
+    
+    #main-header .header-content {
+        position: relative;
+        text-align: center;
+        padding-top: 50vh;
+            
+    }
+    
+    
+}   
