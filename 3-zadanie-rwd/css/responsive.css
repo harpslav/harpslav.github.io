@@ -15,12 +15,12 @@
         
     }
     
-    #main-header .header-content h1 {
+    #main-header .header-content > h1 {
         font-size: 2rem;
         font-weight: 700;
     }
 
-    #main-header .header-content span {
+    #main-header .header-content > h2 {
         font-size: 2.3rem;
          font-weight: 700;
     }
@@ -35,13 +35,15 @@
         background-size: cover;
         max-width: 991px;
         color: #000;
+       
     }    
     
-    #main-header .header-content {
+    #main-header .header-content  {
         position: relative;
+        margin: auto;
         text-align: center;
         padding-top: 50vh;
-            
+        padding-left: 0px;
     }
     
     
