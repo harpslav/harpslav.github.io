@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+}
+
+div.outer-box {
+    background-color: white;
+    width: 610px;
+    height: 100vh;
+    padding: 5px;
+    margin: auto;
+}
+
+div.inner-box {
+    background-color: green;
+    width: 600px;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+}
+
+div.orange-box {
+    background-color: orange;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+
+div.circle {
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+}
+
+div#box1, #box2, #circle3, #circle4 {
+    top: 0;
+}
+
+div#box3, #box4, #circle1, #circle2 {
+    bottom: 0;
+}
+
+div#box1, #box3, #circle2, #circle4 {
+    left: 0;
+}
+
+div#box2, #box4, #circle1, #circle3 {
+    right: 0;
+}
+
